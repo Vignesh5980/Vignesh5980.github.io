@@ -1477,6 +1477,11 @@ img {
     .projects__button{
         right: 1.25rem;
     }
+    #project1{
+        position: relative;
+        top: 1rem;
+        left: 1rem;
+    }
 
     .contact__container{
         grid-template-columns: 440px 670px;
@@ -1505,8 +1510,11 @@ img {
     }
     #message{
         top: 5rem;
-        left: -15rem;
+        left: -10rem;
         width: 465px;
+    }
+    #email{
+        width: 14rem;
     }
     .contact__button{
         position: relative;
@@ -1536,5 +1544,8 @@ img {
         top: 3rem;
         margin-left: 8rem;
         text-align: initial;
+    }
+    .contact__social-data{
+        text-align: center;
     }
 }    
